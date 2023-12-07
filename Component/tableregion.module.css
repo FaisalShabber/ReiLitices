@@ -1,0 +1,16 @@
+.parentDiv {
+  width: 80%;
+}
+.childDiv {
+  width: 20%;
+  padding-left: 6px;
+}
+@media only screen and (max-width: 768px) {
+  .parentDiv {
+    width: 70%;
+  }
+  .childDiv {
+    width: 30%;
+    /* padding-left: 6px; */
+  }
+}
